@@ -1,3 +1,7 @@
+// Main code for spresense
+// Runs DL model, take serial input from UART2
+// Clean exit and autoreset on interrupt trigger
+
 #include <stdlib.h>
 #include <stdbool.h>
 #include <unistd.h>
